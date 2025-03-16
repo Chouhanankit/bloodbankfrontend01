@@ -6,6 +6,8 @@ import DrIMG4 from '../assets/p4.png'
 import DrIMG5 from '../assets/p5.png'
 import DrIMG6 from '../assets/p7.png'
 import DrIMG7 from '../assets/p9.png'
+import { Link } from 'react-router-dom';
+
 const DonarList = () => {
     return (
         <>
@@ -42,9 +44,16 @@ const DonarList = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -77,9 +86,16 @@ const DonarList = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -113,9 +129,16 @@ const DonarList = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -151,9 +174,16 @@ const DonarList = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -186,47 +216,16 @@ const DonarList = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-                    <div className="max-w-m md:w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
-                        <div className="bg-red-500 text-white text-center py-4">
-                            <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
-                        </div>
-                        <div className="p-6">
-                            <div className="flex items-center mb-4">
-                                <img
-                                    className="w-20 h-20 rounded-full border-2 border-red-500 mr-4 bg-gradient-to-r from-[#f57d3cde] to-[#0088ff7a]"
-                                    src={DrIMG6}
-                                    alt="donor profile"
-                                />
-                                <div>
-                                    <h3 className="text-lg font-semibold">KHUSHI PATEL</h3>
-                                    <p className="text-gray-600">Blood Group: <span className="font-bold text-red-500">B+</span></p>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
                                 </div>
-                            </div>
-                            <div className="mb-4">
-                                <p className="text-gray-600">
-                                    <strong>Phone:</strong> +91-8569564521
-                                </p>
-                                <p className="text-gray-600">
-                                    <strong>Email:</strong> khushi@gmail.com
-                                </p>
-                                <p className="text-gray-600">
-                                    <strong>Location:</strong> Indore, MP
-                                </p>
-                            </div>
-                            <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
                             </div>
                         </div>
                     </div>
@@ -262,9 +261,16 @@ const DonarList = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -300,9 +306,61 @@ const DonarList = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div className="max-w-m md:w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                        <div className="bg-red-500 text-white text-center py-4">
+                            <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
+                        </div>
+                        <div className="p-6">
+                            <div className="flex items-center mb-4">
+                                <img
+                                    className="w-20 h-20 rounded-full border-2 border-red-500 mr-4 bg-gradient-to-r from-[#f57d3cde] to-[#0088ff7a]"
+                                    src={DrIMG6}
+                                    alt="donor profile"
+                                />
+                                <div>
+                                    <h3 className="text-lg font-semibold">KHUSHI PATEL</h3>
+                                    <p className="text-gray-600">Blood Group: <span className="font-bold text-red-500">B+</span></p>
+                                </div>
+                            </div>
+                            <div className="mb-4">
+                                <p className="text-gray-600">
+                                    <strong>Phone:</strong> +91-8569564521
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Email:</strong> khushi@gmail.com
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Location:</strong> Indore, MP
+                                </p>
+                            </div>
+                            <div className="text-center">
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -337,9 +395,16 @@ const DonarList = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -374,9 +439,16 @@ const DonarList = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -410,9 +482,16 @@ const DonarList = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -448,9 +527,16 @@ const DonarList = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

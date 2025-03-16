@@ -11,6 +11,7 @@ import Adminpanel from './screens/Adminpanel';
 import { useState } from 'react';
 import Register from './screens/Register';
 import ContactList from './screens/Contact'
+import Appoinment from './screens/Appoinment';
 
 const App = () => {
 
@@ -45,6 +46,7 @@ const App = () => {
               <Route path='/register' element={<Register />} />
               <Route path='/login' element={<Login />} />
               <Route path='/admin' element={<Adminpanel />} />
+              <Route path='/appoinment' element={<Appoinment />} />
             </Routes>
             <Footer />
           </BrowserRouter>

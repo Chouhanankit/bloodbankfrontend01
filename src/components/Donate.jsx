@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Donate = () => {
     return (
@@ -7,7 +8,9 @@ const Donate = () => {
                 <span>
                     <h1 className='md:text-[45px] text-2xl font-medium '>BECOME A BLOOD DONOR</h1>
                     <p className='md:text-xl text-gray-600 my-4'>All types of blood are needed to help patients</p>
-                    <button className='bg-[#EE3D32] md:p-4 p-2 text-white hover:bg-gray-500'>Schedule Appointment</button>
+                    <Link to={'/appoinment'}>
+                        <button className='bg-[#EE3D32] md:p-4 p-2 text-white hover:bg-gray-500'>Schedule Appointment</button>
+                    </Link>
                 </span>
             </div >
         </>

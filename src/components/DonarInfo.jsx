@@ -7,6 +7,7 @@ import DrIMG5 from '../assets/p5.png'
 import DrIMG6 from '../assets/p7.png'
 import DrIMG7 from '../assets/p9.png'
 import DrIMG8 from '../assets/p10.png'
+import { Link } from 'react-router-dom';
 
 const DonarInfo = () => {
     return (
@@ -48,9 +49,16 @@ const DonarInfo = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -83,9 +91,16 @@ const DonarInfo = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -119,9 +134,16 @@ const DonarInfo = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -157,9 +179,16 @@ const DonarInfo = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -194,9 +223,16 @@ const DonarInfo = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -232,16 +268,24 @@ const DonarInfo = () => {
                                 </p>
                             </div>
                             <div className="text-center">
-                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
-                                    Contact Now
-                                </button>
+                                <div className='flex justify-evenly items-center'>
+                                    <Link to={'/contact'}>
+                                        <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                            Request Now
+                                        </button>
+                                    </Link>
+                                    <a href="tel:+919617874140">
+                                        <i className="las la-phone text-black text-3xl w-10 h-4 hover:text-green-400"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
-
-                <button className='bg-white text-black p-2 mb-10 hover:bg-red-600 delay-150 hover:text-white '>View All Donar</button>
+                <Link to={"/donarlist"}>
+                    <button className='bg-white text-black p-2 mb-10 hover:bg-red-600 delay-150 hover:text-white '>View All Donar</button>
+                </Link>
             </div>
         </>
     )
